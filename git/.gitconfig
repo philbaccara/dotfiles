@@ -182,7 +182,7 @@
         textconv = hexdump -v -C
 
 [pretty]
-        custom = "%C(magenta)%h%C(red)%d %C(yellow)%ar %C(green)%s %C(yellow)(%an)"
+        custom = "%C(magenta)%h%C(red)%d %C(blue)%ar %C(green)%s %C(yellow)(%an)"
         #                     │        │            │            │             └─ author name
         #                     │        │            │            └─ message
         #                     │        │            └─ date (relative)
