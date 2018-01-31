@@ -1,0 +1,7 @@
+[
+  {
+    "key": "shift+enter",
+    "command": "extension.jumpy-word",
+    "when": "editorTextFocus"
+  },
+]
