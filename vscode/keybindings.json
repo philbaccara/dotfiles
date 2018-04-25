@@ -1,7 +1,13 @@
+// Placez vos combinaisons de touches dans ce fichier pour remplacer les valeurs par défaut
 [
   {
     "key": "shift+enter",
     "command": "extension.jumpy-word",
     "when": "editorTextFocus"
   },
+  {
+    "key": "cmd+numpad_divide",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  }
 ]
